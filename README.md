@@ -4,7 +4,7 @@
 
 ## حمّل الأداة كاملة
 
-نزّل الملف [MacBook-A1278-Windows-Audio-Fix-source.zip](MacBook-A1278-Windows-Audio-Fix-source.zip) من هذا المستودع، وفكّه في Windows. الملف يحتوي على السكربت والمصادر وملفات EFI المطلوبة مع بصمات SHA-256 وإشعارات التراخيص. ملفات السكربت المنفردة موجودة هنا لسهولة مراجعتها؛ استخدم النسخة المستخرجة من ZIP كي يكون مجلد Payload بجوارها.
+نزّل الملف [MacBook-A1278-Windows-Audio-Fix-source.zip](MacBook-A1278-Windows-Audio-Fix-source.zip) من هذا المستودع، وفكّه في Windows. يحتوي الأرشيف على السكربت والمصادر وملفات EFI المطلوبة وبصمات SHA-256 وإشعارات التراخيص. شغّل الأداة من المجلد المستخرج حتى يكون مجلد Payload بجوار السكربت.
 
 ## الخطوات
 
@@ -24,10 +24,10 @@ fs0:
 
 ## النطاق
 
-تم تأكيد الصوت على جهاز MacBookPro9,2/A1278 المذكور فقط. قد تنطبق الفكرة على بعض أجهزة Sandy/Ivy Bridge المشابهة، لكنها ليست مضمونة لكل موديل. هذه ليست حزمة تعريف صوت تعمل بعد تشغيل Windows؛ OpenCore يحمّل تعديل SSDT-PCI وBUF0 إلى BUF1 قبل بدء Windows. راجع THIRD-PARTY-NOTICES.md للتراخيص والمصادر.
+تم تأكيد الصوت على جهاز MacBookPro9,2/A1278 المذكور فقط. قد تنطبق الفكرة على بعض أجهزة Sandy/Ivy Bridge المشابهة، لكنها ليست مضمونة لكل موديل. هذه ليست حزمة تعريف صوت تعمل بعد تشغيل Windows؛ OpenCore يحمّل تعديل SSDT-PCI وBUF0 إلى BUF1 قبل بدء Windows. راجع ملف THIRD-PARTY-NOTICES.md داخل الأرشيف للتراخيص والمصادر.
 
 This product includes software developed by Dortania and OpenCore Legacy Patcher contributors.
 
 ## English summary
 
-This repository contains a Windows PowerShell USB builder and the tested EFI payload. Download and extract the complete source ZIP, run Start-Tool.cmd on an already formatted FAT32 removable USB drive, then boot the Mac from the USB and launch the EFI path shown above from UEFI Shell. The confirmed test is one A1278 / MacBookPro9,2 on Windows 10 Enterprise LTSC 21H2; other systems are not guaranteed. The script never formats a drive or modifies the internal Windows installation.
+This repository contains the complete Windows PowerShell USB builder and tested EFI payload in the source ZIP. Download and extract it, run Start-Tool.cmd on an already formatted FAT32 removable USB drive, then boot the Mac from the USB and launch the EFI path shown above from UEFI Shell. The confirmed test is one A1278 / MacBookPro9,2 on Windows 10 Enterprise LTSC 21H2; other systems are not guaranteed. The script never formats a drive or modifies the internal Windows installation.
