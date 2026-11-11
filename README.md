@@ -31,3 +31,9 @@ This product includes software developed by Dortania and OpenCore Legacy Patcher
 ## English summary
 
 This repository contains the complete Windows PowerShell USB builder and tested EFI payload in the source ZIP. Download and extract it, run Start-Tool.cmd on an already formatted FAT32 removable USB drive, then boot the Mac from the USB and launch the EFI path shown above from UEFI Shell. The confirmed test is one A1278 / MacBookPro9,2 on Windows 10 Enterprise LTSC 21H2; other systems are not guaranteed. The script never formats a drive or modifies the internal Windows installation.
+
+## طلب بالدعاء | A request
+
+أرجو منكم الدعاء لي بظهر الغيب، جزاكم الله خيرًا.
+
+Please remember me in your prayers when I am not present. Thank you.
